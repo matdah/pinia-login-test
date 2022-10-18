@@ -5,7 +5,7 @@ import Nav from './components/Nav.vue';
 
 <template>
   <header>
-    <h1>Pinia Test #2021</h1>
+    <h1>Pinia Login Test #1</h1>
 
     <Nav />
   </header>
