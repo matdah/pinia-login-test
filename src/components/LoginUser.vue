@@ -43,7 +43,7 @@ export default {
             if (response) {
                 this.message = 'Lyckad inloggning!';
             } else {
-                this.message = 'Felaktivt användarnamn / lösenord!';
+                this.message = 'Felaktigt användarnamn / lösenord! Skärpning!!';
             }
         },        
     }
