@@ -22,19 +22,15 @@
 
 <script>
 import { userStore } from '../stores/user';
+const store = userStore();
 
 export default {
-    setup() {
-        const store = userStore();
-        return {
-            store
-        }
-    },
     data() {
         return {
             email: '',
             password: '',
-            message: ''
+            message: '',
+            store
         }
     },
     methods: {
